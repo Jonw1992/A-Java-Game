@@ -8,6 +8,7 @@ public class TetrisFrame extends JFrame
 
 	TetrisFrame()
 	{
+		int x = 1;
 		Toolkit kit = Toolkit.getDefaultToolkit();
 		Dimension screenSize = kit.getScreenSize();
 		setTitle("Tetris");
